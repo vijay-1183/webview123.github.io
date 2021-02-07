@@ -252,6 +252,7 @@ input,
     color: black;
     padding-top: 30px;
     font-weight: 500;
+    width: 75%;
 }
 
 .bg-img {
@@ -371,7 +372,8 @@ input,
         flex-direction: column !important;
     }
     body{
-        padding: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
     .text-align{
         font-size: 60px !important;
@@ -382,7 +384,85 @@ input,
     }
     .layers-para{
         width: 100% !important;
-        border-bottom: 0px !important;
+        border: none !important;
+    }
+    .media-sec1{
+        font-size: 27px !important;
+        color: white !important;
+        font-weight: lighter !important;
+    }
+    .fbold{
+        font-size: 33px;
+    }
+    .economic-para{
+        width: 100% !important;
+    }
+    .Economics-sp{
+        font-size: 21px;
+    }
+    .elastic-para{
+        color: mediumaquamarine;
+    }
+    .font-siz{
+        font-size: 50px !important;
+        font-weight: 800 !important;
+    }
+    .web-view{
+        display: none;
+    }
+    #mobile-view{
+        display: block !important;
+    }
+    .layers{
+        padding-top: 20px !important;
+    }
+    .row-padd{
+        padding-top: 50px !important;
+        padding-bottom: 15px !important;
+    }
+    #Started h1{
+        font-size: 50px;
+    }
+    .blue-btn{
+        height: 41px !important;
+        font-size: 10px !important;
+        padding: 0px !important;
+        width: 50% !important;
+        background: mediumspringgreen !important;
+    }
+    .b1{
+        background: mediumspringgreen !important;
+        font-size: 12px !important;
+    }
+    .b2{
+        font-size: 12px !important;
+    }
+    .footer-img{
+        width: 100px !important;
+    }
+    .footer-left{
+        text-align: left !important;
+    }
+    .footer-right{
+        text-align: left !important;
+    }
+    .search{
+        width: 95% !important;
+    }
+    .navbar-toggler{
+        padding-left: 160px !important;
+        outline: none !important;
+    }
+    .fa-bars{
+        width: 42px;
+        background: #30303E;
+        height: 34px;
+    }
+    .ui-align{
+        padding-top: 40px !important;
+    }
+    #navbarSupportedContent{
+        display: none;
     }
 }
 
@@ -672,7 +752,7 @@ body {
 
 .layers-para{
     width: 130px;
-    border-bottom: 1px solid darkslategray !important;
+    border-bottom: 1px solid darkslategray;
 }
 
 .row-padd{
@@ -694,4 +774,8 @@ body {
 #navbarSupportedContent ul li a{
     font-size: 12px;
 }
+#mobile-view{
+    display: none;
+}
+
 
